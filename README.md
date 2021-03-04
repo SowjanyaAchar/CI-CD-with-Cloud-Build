@@ -47,13 +47,14 @@ In the image below, we see a News API trigger.
 5) Cloud Run pulls the latest image from the Container Registry and runs it.
 
 #### Cloud build trigger:
-    <img src=https://github.com/SowjanyaAchar/CI-CD-with-Cloud-Build/blob/main/trigger.png width= 800 /><br>
+   <img src=https://github.com/SowjanyaAchar/CI-CD-with-Cloud-Build/blob/main/trigger.png width= 800 /><br>
+
 
 
 The build configuration file for the NewAPI: 
 
 #### cloudbuild.yaml
-    <img src=https://github.com/SowjanyaAchar/CI-CD-with-Cloud-Build/blob/main/cloudbuild.png width= 500 /><br>
+   <img src=https://github.com/SowjanyaAchar/CI-CD-with-Cloud-Build/blob/main/cloudbuild.png width= 500 /><br>
 
 
 ## References:
