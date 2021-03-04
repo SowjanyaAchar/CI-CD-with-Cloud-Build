@@ -1,4 +1,4 @@
-# CI/CD with GCP Cloud Build: 
+# CI/CD with Google Cloud Build: 
 
 Cloud Build is a managed service that allows you to continuously build, test and deploy on Google Cloud Platform infrastructure.
 Let's start with a brief introduction to CI/CD and learn about its benefits.
