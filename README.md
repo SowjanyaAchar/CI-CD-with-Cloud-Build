@@ -46,15 +46,19 @@ In the image below, we see a News API trigger.
 4) Cloud Build then notifies Cloud Run to redeploy. 
 5) Cloud Run pulls the latest image from the Container Registry and runs it.
 
-![Cloud build trigger](https://github.com/SowjanyaAchar/CI-CD-with-Cloud-Build/blob/main/trigger.png =250x250)
+<img src=https://github.com/SowjanyaAchar/CI-CD-with-Cloud-Build/blob/main/trigger.png width= 800 /><br>
+**Cloud build trigger**
+
 
 The build configuration file for the NewAPI: cloudbuild.yaml 
-![cloudbuild.yaml](https://github.com/SowjanyaAchar/CI-CD-with-Cloud-Build/blob/main/cloudbuild.png width=100)
 
+<img src=https://github.com/SowjanyaAchar/CI-CD-with-Cloud-Build/blob/main/cloudbuild.png width= 500 /><br>
 
+**cloudbuild.yaml**
 
 
 ## References:
 1) https://medium.com/swlh/how-to-ci-cd-on-google-cloud-platform-1e631cded335
 2) https://medium.com/serverlessguru/serverless-ci-cd-cloud-build-e8c09e9a1018
 3) https://cloud.google.com/build/docs/overview
+4) 
