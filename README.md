@@ -16,7 +16,8 @@ Adopting CI/CD provides us the opportunity to automate the process of building t
 ## What is Cloud Build?
 
 Cloud Build is a continuous build, test, and deploy pipeline service offered by the Google Cloud Platform. 
-< “Cloud Build lets you build software quickly across all languages. Get complete control over defining custom workflows for building, testing, and deploying across multiple environments such as VMs, serverless, Kubernetes, or Firebase.” — Documentation >
+
+> “Cloud Build lets you build software quickly across all languages. Get complete control over defining custom workflows for building, testing, and deploying across multiple environments such as VMs, serverless, Kubernetes, or Firebase.” — Documentation 
 
 ## Key Features of Cloud Build are: 
 
