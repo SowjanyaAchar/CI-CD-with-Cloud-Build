@@ -5,7 +5,7 @@ Let's start with a brief introduction to CI/CD and learn about its benefits.
 
 ## What is CI/CD?
 
-Continuous Integration  (CI ) a powerful way to continuously build and test your code. Whenever there is a change or update in the Source Code Manager like GitHub, Bitbucket etc, CI process is triggered which then builds your application and runs all the associated tests against it. 
+Continuous Integration  (CI ) is a powerful tool to continuously build and test your code. Whenever there is a change or update in the Source Code Manager like GitHub, Bitbucket etc, CI process is triggered which then builds your application and runs all the associated tests against it. 
 
 Continuous Delivery on the other hand is a way to deploy your code to the production environment/clients etc. Just like CI, this process is also triggered by an update in SCM and build scripts help push the new version of your application to the end user.
 Adopting CI/CD provides us the opportunity to automate the process of building the code, running the automation test suites and verifying the results before it can be deployed. 
