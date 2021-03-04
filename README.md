@@ -40,11 +40,11 @@ To create a build pipeline, we need to create a build configuration file typical
 Here is an example of how the cloud build trigger and configuration file looks like in a real world application. To learn more about how to setup the triggers and build pipeline refer: [ https://cloud.google.com/docs/ci-cd ]
 
 In the image below, we see a News API trigger. 
-1) When the Developer checks in the code to a GitHub repository linked to the CloudBuild trigger.
+1) The Developer checks in the code to a GitHub repository linked to the CloudBuild trigger.
 2) GitHub triggers a post-commit hook to Cloud Build.
-3) Cloud Build builds a container image and pushes it to Google cloud container registry. 
-4) Cloud Build then notifies Cloud Run to redeploy. 
-5) Cloud Run pulls the latest image from the Container Registry and runs it.
+3) A new container image is built with the changes in the Source code. This container is pushed to the Google cloud container registry.
+4) Cloud Build alerts Cloud Run to redeploy
+5) Cloud Run pulls the latest image from the Container Registry and deploys the latest version of application.
 
 #### Cloud build trigger:
    <img src=https://github.com/SowjanyaAchar/CI-CD-with-Cloud-Build/blob/main/trigger.png width= 800 /><br>
@@ -58,7 +58,7 @@ The build configuration file for the NewAPI:
 
 
 ## References:
-1) https://medium.com/swlh/how-to-ci-cd-on-google-cloud-platform-1e631cded335
+1) [How to CI/CD on Google Cloud Platform](https://medium.com/swlh/how-to-ci-cd-on-google-cloud-platform-1e631cded335)
 2) https://medium.com/serverlessguru/serverless-ci-cd-cloud-build-e8c09e9a1018
 3) https://cloud.google.com/build/docs/overview
-4) 
+4) [Setup google cloud build and create triggers](https://dev.to/ryanmercadante/ci-cd-with-google-cloud-build-28jf)
