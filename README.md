@@ -13,7 +13,7 @@ Adopting CI/CD provides us the opportunity to automate the process of building t
 ## What is Cloud Build?
 Cloud Build is a continuous build, test, and deploy pipeline service offered by the Google Cloud Platform. 
 
-> “Cloud Build lets you build software quickly across all languages. Get complete control over defining custom workflows for building, testing, and deploying across multiple environments such as VMs, serverless, Kubernetes, or Firebase.” [https://cloud.google.com/build]
+> “Cloud Build lets you build software quickly across all languages. Get complete control over defining custom workflows for building, testing, and deploying across multiple environments such as VMs, serverless, Kubernetes, or Firebase.” [Google Cloud Build Documentation](https://cloud.google.com/build)
 
 ## Key Features of Cloud Build are: 
 
@@ -31,13 +31,13 @@ Cloud Build is a continuous build, test, and deploy pipeline service offered by 
 
 ## Cloud Build Execution:
 
-> Cloud Build executes your build as a series of build steps, where each build step is run in a Docker container. Executing build steps is analogous to executing commands in a script. - [https://cloud.google.com/build/docs]
+> Cloud Build executes your build as a series of build steps, where each build step is run in a Docker container. Executing build steps is analogous to executing commands in a script. - [Google Cloud Build Documentation](https://cloud.google.com/build/docs)
 
-To create a build pipeline, we need to create a build configuration file typically in YAML or JSON format which instructs the Cloud Build to perform various tasks like building artifacts when triggered. Cloud build provides a huge set of open source build tasks [https://github.com/GoogleCloudPlatform/cloud-builders]  that can be used in the configuration file or we can create our own build tasks depending on our use case.  
+To create a build pipeline, we need to create a build configuration file typically in YAML or JSON format which instructs the Cloud Build to perform various tasks like building artifacts when triggered. Cloud build provides a huge set of open source build tasks [Cloud Builders](https://github.com/GoogleCloudPlatform/cloud-builders)  that can be used in the configuration file or we can create our own build tasks depending on our use case.  
 
 ## Cloud build example use case: 
 
-Here is an example of how the cloud build trigger and configuration file looks like in a real world application. To learn more about how to setup the triggers and build pipeline refer: [ https://cloud.google.com/docs/ci-cd ]
+Here is an example of how the cloud build trigger and configuration file looks like in a real world application. To learn more about how to setup the triggers and build pipeline refer: [CI/CD with GCP](https://cloud.google.com/docs/ci-cd)
 
 In the image below, we see a News API trigger. 
 1) The Developer checks in the code to a GitHub repository linked to the CloudBuild trigger.
